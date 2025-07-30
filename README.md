@@ -19,3 +19,11 @@ How to Use
 . Step 7: Put the original (vanilla) files in the Original folder.
 
 . Step 8: Run the script. The resulting .wem files will be saved in the Output folder.
+
+WAF 1.7
+
+Now if run with arguments (--mod, --original, --output), it runs in CLI mode (no GUI).
+
+ex: python wem_fixer.py --mod ("mods/") --original ("originals/") --output ("patched/")
+
+If no arguments are passed, it launches the GUI.
